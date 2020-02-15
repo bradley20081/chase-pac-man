@@ -1,0 +1,20 @@
+{
+    "name": "Chase Pac-man",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "storyboard": "*",
+        "light": "*",
+        "controller": "*",
+        "color-coded-tilemap": "*"
+    },
+    "description": "",
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "preferredEditor": "tsprj",
+    "testFiles": [
+        "test.ts"
+    ]
+}
