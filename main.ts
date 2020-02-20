@@ -643,7 +643,7 @@ function Initialize_Blinky () {
         . 2 . . . 2 2 . . 2 2 . . . 2 .
     `, SpriteKind.Player)
     Blinky.setPosition(182, 135)
-    controller.moveSprite(Blinky, 30, 30)
+    controller.moveSprite(Blinky, 40, 40)
     Blinky.z = 3
     Idle_Blinky = animation.createAnimation(ActionKind.Idle, 800)
     if (debug == 0) {
