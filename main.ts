@@ -643,7 +643,7 @@ function Initialize_Blinky () {
         . 2 . . . 2 2 . . 2 2 . . . 2 .
     `, SpriteKind.Player)
     Blinky.setPosition(182, 135)
-    controller.moveSprite(Blinky, 40, 40)
+    controller.moveSprite(Blinky, 55, 55)
     Blinky.z = 3
     Idle_Blinky = animation.createAnimation(ActionKind.Idle, 800)
     if (debug == 0) {
@@ -1613,7 +1613,7 @@ debug = 0
 let Pellet_Count = 191
 let Powerup = 0
 let Flight_End_Time = 5
-Fight_End_Time = 30
+Fight_End_Time = 20
 Time = 0
 let offset = 3
 PacmanLives = 3
